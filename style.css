@@ -1,3 +1,6 @@
+html{
+    scroll-behaviour: smooth;
+}
 .navi{
     padding:15px 15px;
     font: normal normal 600 16px/19px Montserrat;
