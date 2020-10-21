@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPCA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script>
+      function onClick(id) {
+        document.getElementById(id).style.visibility = "visible";
+      }
+      function cick(){
+        document.getElementById("pop1").style.visibility = "hidden";
+        document.getElementById("pop2").style.visibility = "hidden";
+        document.getElementById("pop3").style.visibility = "hidden";
+        document.getElementById("pop4").style.visibility = "hidden";
+        document.getElementById("pop5").style.visibility = "hidden";
+        document.getElementById("pop6").style.visibility = "hidden";
+        document.getElementById("pop7").style.visibility = "hidden";
+        document.getElementById("pop8").style.visibility = "hidden";
+        document.getElementById("pop9").style.visibility = "hidden";
+        document.getElementById("pop10").style.visibility = "hidden";
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!--Nav Bar-->
+  
+  
+  <div class="nav-parent">
+    <nav class="navbar col-sm-12 navbar-expand-lg navbar-light flex-coloumn flex-md-row bd-navbar">
+      <a class="navbar-brand" href="#">
+        <img src="assets/Group 40.svg" width="45" height="60" alt="">
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-0 ml-0">
+            <li class=" navi nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class=" navi nav-item active">
+                <a class="nav-link" href="#">Sessions<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="navi nav-item active">
+                <a class="nav-link" href="#">Speakers<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="navi nav-item active">
+                <a class="nav-link" href="#">Career Info<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="navi nav-item active">
+                <a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="icon-span text-center fb">
+              <img class="icons" src="assets/Group 7.svg" alt="">
+            </li>
+            <li class="icon-span text-center yt">
+              <img class="icons" src="assets/Group 8.svg" alt="">
+            </li>
+            <li class="icon-span text-center in">
+              <img class="icons" src="assets/Group 9.svg" alt="">
+            </li>
+          </ul>
+        </div>
+      </nav>  
+
+    </div> 
+
+    <!--intro-->
+      
+    <div class="intro">
+      <h1>Speakers</h1>
+      <p class="p-intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+
+    <!--Pop-Up-->
+
+    <div class="nav-child">
+        
+      <div class="flex-container">
+        <div id="pop1" class="pop-up hidden">
+          <img src="assets/cross.svg" class="cancel" onclick="cick()">
+          <img class="row-img" style="margin:40px auto" src="assets/1st.png">
+          <h5>Mr.Aditya Berlia</h5>
+          <p class="t2">Alumnus</p>
+          <p class="t3">Harvard | Stanford</p>
+          <p class="t4">Mr. Aditya Berlia received his doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+        </div>
+        </div>
+    
+        <div class="flex-container">
+          <div id="pop2" class="pop-up hidden">
+            <img src="assets/cross.svg" class="cancel" onclick="cick()">
+            <img class="row-img" style="margin:40px auto" src="assets/2nd.png">
+            <h5>Mr.Tarun Anand</h5>
+            <p class="t2">Former CMD</p>
+            <p class="t3">Thomson Reuters, South Asia</p>
+            <p class="t4">Mr. Tarun Anand received his doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+          </div>
+        </div>
+    
+        <div class="flex-container">
+            <div id="pop3" class="pop-up hidden">
+              <img src="assets/cross.svg" class="cancel" onclick="cick()">
+              <img class="row-img" style="margin:40px auto" src="assets/3rd.png">
+              <h5>Dr. Thomas E Michal</h5>
+              <p class="t2">Prof. & Dean</p>
+              <p class="t3">OP Jindal Global University</p>
+              <p class="t4">Dr. Thomas E Michal received his doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+            </div>
+        </div>
+    
+        <div class="flex-container">
+              <div id="pop4" class="pop-up hidden">
+                <img src="assets/cross.svg" class="cancel" onclick="cick()">
+                <img class="row-img" style="margin:40px auto" src="assets/4th.png">
+                <h5>Prof. Asha Chandola</h5>
+              <p class="t2"></p>
+              <p class="t3">Alumnus JBIMS, Mumbai</p>
+                <p class="t4">Prof. Asha Chandola received her doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+              </div>
+        </div>
+    
+        <div class="flex-container">
+                <div id="pop5" class="pop-up hidden">
+                  <img src="assets/cross.svg" class="cancel" onclick="cick()">
+                  <img class="row-img" style="margin:40px auto" src="assets/5th.png">
+                  <h5>Indradeep Mazumdar</h5>
+                  <p class="t2">Management Consultant</p>
+                  <p class="t3">Mercer, Australia</p>
+                  <p class="t4">Indradeep Mazumdar received his doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+                </div>
+        </div>
+    
+        <div class="flex-container">
+                  <div id="pop6" class="pop-up hidden">
+                    <img src="assets/cross.svg" class="cancel" onclick="cick()">
+                    <img class="row-img" style="margin:40px auto" src="assets/6th.png">
+                    <h5>Andrew Hyder</h5>
+                    <p class="t2">Coach</p>
+                    <p class="t3">L&D Expert | Leadership</p>
+                    <p class="t4">Andrew Hyder received his doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+                  </div>
+        </div>
+    
+        <div class="flex-container">
+                    <div id="pop7" class="pop-up hidden">
+                      <img src="assets/cross.svg" class="cancel" onclick="cick()">
+                      <img class="row-img" style="margin:40px auto" src="assets/7th.png">
+                      <h5>Brijesh Singh</h5>
+                      <p class="t2">Educationist</p>
+                      <p class="t3">Alumnus JBIMS, Mumbai</p>
+                      <p class="t4">Brijesh Singh received his doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+                    </div>
+        </div>
+    
+        <div class="flex-container">
+                      <div id="pop8" class="pop-up hidden">
+                        <img src="assets/cross.svg" class="cancel" onclick="cick()">
+                        <img class="row-img" style="margin:40px auto" src="assets/8th.png">
+                        <h5>Mrs. Kajal Jain</h5>
+                        <p class="t2">Founder</p>
+                        <p class="t3">MESO Studio</p>
+                        <p class="t4">Mrs. Kajal Jain received his doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+                      </div>
+        </div>
+    
+        <div class="flex-container">
+                        <div id="pop9" class="pop-up hidden">
+                          <img src="assets/cross.svg" class="cancel" onclick="cick()">
+                          <img class="row-img" style="margin:40px auto" src="assets/9th.png">
+                          <h5>Mr.Saurabh Gupta</h5>
+                          <p class="t3">Charted Accountant</p>
+                          <p class="t2"></p>
+                          <p class="t4">Mr. Tarun Anand received his doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+                        </div>
+        </div>
+    
+        <div class="flex-container">
+                          <div id="pop10" class="pop-up hidden">
+                            <img src="assets/cross.svg" class="cancel" onclick="cick()">
+                            <img class="row-img" style="margin:40px auto" src="assets/10th.png">
+                            <h5>Sriram S</h5>
+                            <p class="t2">Educationist</p>
+                            <p class="t3">Innovation & Tech PwC</p>
+                            <p class="t4">Mr. Tarun Anand received his doctorate degree in Counselor Education & Supervision from Pennsylvania State University and has worked as a career, school, and mental health counselor and clinical supervisor. Brian’s career consultation and education work operates within the brand of Global Career Guy where he specializes in developing career publications, programs, keynote talks, workshops, and on-line career coaching and mentorship for global career professionals. He has more than four dozen publications and is currently writing the 13th Edition of School to Career, a textbook for high school students.</p>
+                          </div>
+        </div>
+
+      </div>
+
+    <!--Speakers-->
+
+    <div class="speakers jumbotron-fluid">
+      <div class="card-deck container-fluid">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" onclick="onClick('pop1')">
+          <img class="row-img" src="assets/1st.png">
+          <h5>Mr.Aditya Berlia</h5>
+          <p class="t2">Alumnus</p>
+          <p class="t3">Harvard | Stanford</p>
+        </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow p-3 mb-5 bg-white rounded" onclick="onClick('pop2')">
+          <img class="row-img" src="assets/2nd.png">
+          <h5>Mr. Tarun Anand</h5>
+          <p class="t2">Former CMD</p>
+          <p class="t3">Thomson Reuters, South Asia</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow p-3 mb-5 bg-white rounded" onclick="onClick('pop3')">
+          <img class="row-img" src="assets/3rd.png">
+          <h5>Dr. Thomas E Michal</h5>
+          <p class="t2">Prof. & Dean</p>
+          <p class="t3">OP Jindal Global University</p>
+        </div>
+      </div>
+      </div>
+      
+      <div class="card-deck container-fluid">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow p-3 mb-5 bg-white rounded" onclick="onClick('pop4')">
+          <img class="row-img" src="assets/4th.png">
+          <h5>Prof. Asha Chandola</h5>
+          <p class="t2"></p>
+          <p class="t3">Alumnus JBIMS, Mumbai</p>
+          </div>
+        </div>
+      
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow p-3 mb-5 bg-white rounded" onclick="onClick('pop5')">
+          <img class="row-img" src="assets/5th.png">
+          <h5>Indradeep Mazumdar</h5>
+          <p class="t2">Management Consultant</p>
+          <p class="t3">Mercer, Australia</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow p-3 mb-5 bg-white rounded" onclick="onClick('pop6')">
+          <img class="row-img" src="assets/6th.png">
+          <h5>Andrew Hyder</h5>
+          <p class="t2">Coach</p>
+          <p class="t3">L&D Expert | Leadership</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck container-fluid">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow p-3 mb-5 bg-white rounded" onclick="onClick('pop7')">
+          <img class="row-img" src="assets/7th.png">
+          <h5>Brijesh Singh</h5>
+          <p class="t2">Educationist</p>
+          <p class="t3">Alumnus JBIMS, Mumbai</p>
+          </div>
+        </div>
+      
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow p-3 mb-5 bg-white rounded" onclick="onClick('pop8')">
+          <img class="row-img" src="assets/8th.png">
+          <h5>Mrs. Kajal Jain</h5>
+          <p class="t2">Founder</p>
+          <p class="t3">MESO Studio</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow p-3 mb-5 bg-white rounded" onclick="onClick('pop9')">
+          <img class="row-img" src="assets/9th.png">
+          <h5>Mr.Saurabh Gupta</h5>
+          <p class="t2"></p>
+          <p class="t3">Charted Accountant</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="card-deck container-fluid">
+        
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow p-3 mb-5 bg-white rounded" onclick="onClick('pop10')">
+          <img class="row-img" src="assets/10th.png">
+          <h5>Sriram S</h5>
+          <p class="t2">Educationist</p>
+          <p class="t3">Innovation & Tech PwC</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--About Us-->
+
+    <div class="row info">
+        <div class="col-5 npoca">
+          <img class="img-fluid" src="assets/Group 147.png">
+        </div>
+        <div class="col-7 flex-container">
+          <div class="col-info"><p>About Us</p></div>
+          <div class="col-info"><p>Mission</p></div>
+          <div class="col-info"><p>Vision</p></div>
+          <div class="col-info"><p>Expert Talk</p></div>
+          <div class="col-info"><p>Master Class</p></div>
+          <div class="col-info"><p>Recordings</p></div>
+          <div class="col-info"><p>Contact Us</p></div>
+
+        </div>
+    </div>
+
+    <!--Copyright-->
+
+    <div class="copyright row">
+      <div class="col-6 cr">Copyright 2020. NPOCA All Rights Reserved</div>
+      <div class="col-6 cr">Site Map | Disclaimer | Privacy | Terms & Conditions</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>
