@@ -25,6 +25,11 @@ html {
     z-index: 10;
     background-color:white;
 }
+
+.img-fluid{
+    border-right: 2px solid orange;
+}
+
 .fb{
     opacity:1;
 }
